@@ -103,4 +103,5 @@ function close_popup(){
 
     document.querySelector('.jogador-escolha').innerHTML = ``
     document.querySelector('.computador-escolha').innerHTML = ``
+    btnJogar.disabled = true;
 }
